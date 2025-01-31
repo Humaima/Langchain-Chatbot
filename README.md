@@ -16,21 +16,22 @@ Streamlit UI: Provides a simple and interactive web-based interface.
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/llama-chatbot.git
-cd llama-chatbot
+   git clone https://github.com/yourusername/llama-chatbot.git
+
+   cd llama-chatbot
 
 2. Install the required dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 3. Create a .env file and add your Groq API key:
 
-GROQ_API_KEY=your_groq_api_key
-LANGCHAIN_API_KEY=your_langchain_api_key
+   GROQ_API_KEY=your_groq_api_key
+   LANGCHAIN_API_KEY=your_langchain_api_key
 
 4. Run the Streamlit app:
    
-streamlit run app.py
+   streamlit run app.py
 
 📌 Usage
 

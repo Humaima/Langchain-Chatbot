@@ -12,6 +12,26 @@ Streamlit UI: Provides a simple and interactive web-based interface.
 
 .env Support: Securely loads API keys using python-dotenv.
 
+🚀 How to Run
+
+1. Clone this repository:
+
+git clone https://github.com/yourusername/llama-chatbot.git
+cd llama-chatbot
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+3. Create a .env file and add your Groq API key:
+
+GROQ_API_KEY=your_groq_api_key
+LANGCHAIN_API_KEY=your_langchain_api_key
+
+4. Run the Streamlit app:
+   
+streamlit run app.py
+
 📌 Usage
 
 Enter your question in the input field.
